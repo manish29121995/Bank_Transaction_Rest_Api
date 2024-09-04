@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: Bank-Json-Rest-Api
+    
+  datasource:
+    url: jdbc:mysql://localhost:3306/mannu_2912
+    username: root
+    password: 1995
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+server:
+  port: 9092
+  
